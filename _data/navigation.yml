@@ -9,5 +9,3 @@ main:
     url: /resume/
   - title: "About"
     url: /about/
-  - title: "Lab Challenges"
-    url: /_posts/
