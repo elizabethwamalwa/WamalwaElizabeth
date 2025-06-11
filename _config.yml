@@ -2,22 +2,32 @@ title: Elizabeth Wamalwa
 email: elizabethwamalwa001@gmail.com
 description: >-
   QA Engineer transitioning into cybersecurity and cloud. Documenting my learning journey here.
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-  - jemoji
+twitter_username: Wamalwaelizabeth
+github_username: elizabethwamalwa
+minimal_mistakes_skin: default
+search: true
 
+# Build settings
 markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+# Outputting
+permalink: /:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Africa/Nairobi
 
 include:
   - _pages
 
-permalink: /:title/
-paginate: 5
-paginate_path: /page:num/
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 author:
   name   : "Elizabeth Wamalwa"
@@ -30,5 +40,43 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/elizabeth-wamalwa"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/Wamalwaelizabeth"
 
-minimal_mistakes_skin: default
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/elizabethwamalwa"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/elizabeth-wamalwa"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://twitter.com/Wamalwaelizabeth"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
