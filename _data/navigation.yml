@@ -10,4 +10,4 @@ main:
   - title: "About"
     url: /about/
   - title: "Lab Challenges"
-    url: /lab-challenges/
+    url: /_posts/
