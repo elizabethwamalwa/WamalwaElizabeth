@@ -2,7 +2,7 @@
 title: "Linux Fundamentals – Hack The Box Lab"
 layout: single
 date: 2025-06-12
-categories: [labs]
+categories: [Blog]
 tags: [linux, fundamentals, htb, cybersecurity, lab]
 author_profile: true
 ---
