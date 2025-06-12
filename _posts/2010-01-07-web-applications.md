@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Web Applications – HTB Lab"
 layout: single
-date: 2025-06-13
+date: 2025-06-06
 categories: [Blog]
 tags: [web, applications, http, htb, cybersecurity, lab]
 author_profile: true
