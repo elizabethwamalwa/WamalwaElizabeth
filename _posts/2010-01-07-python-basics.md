@@ -2,7 +2,7 @@
 title: "Python Basics for Security – TryHackMe Lab"
 layout: single
 date: 2025-06-14
-categories: [labs]
+categories: [Blog]
 tags: [python, scripting, tryhackme, automation, cybersecurity]
 author_profile: true
 ---
