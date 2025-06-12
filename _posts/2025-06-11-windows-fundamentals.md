@@ -2,7 +2,7 @@
 title: "Windows Fundamentals – Hack The Box Lab"
 layout: single
 date: 2025-06-11
-categories: [labs]
+categories: [Blog]
 tags: [windows, fundamentals, htb, cybersecurity, lab]
 author_profile: true
 ---
